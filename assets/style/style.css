@@ -29,8 +29,11 @@ nav img {
 }
 
 nav ul {
+    font-weight: 500;
+    font-size: 14px;
     display: flex;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .list {
@@ -77,17 +80,146 @@ nav ul {
     gap: 20px;
 }
 
-#home .white {
+.white {
     background-color: #FFFFFFFF;
     border-radius: 5px;
     padding: 10px 100px;
     font-weight: 500;
+    cursor: pointer;
+    color: #000000;
 }
 
-#home .black {
+.black {
     background-color: #000000;
     border-radius: 5px;
     color: #FFFFFFFF;
     padding: 10px 100px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+#modelY {
+    height: 100vh;
+    background-image: url(/assets/images/page2.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px 0;
+    text-align: center;
+}
+
+#modelY h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#modelY p {
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: 400;
+}
+
+#modelY div:first-child span {
+    color: #393C41;
+    font-size: 14px;
+}
+
+#modelX {
+    height: 100vh;
+    background-image: url(/assets/images/page3.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px 0;
+    text-align: center;
+}
+
+#modelX h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#modelX p {
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: 400;
+}
+
+#modelX div:first-child span {
+    color: #393C41;
+    font-size: 14px;
+}
+
+#modelS {
+    height: 100vh;
+    background-image: url(/assets/images/page4.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px 0;
+    text-align: center;
+    color: #FFFFFFFF;
+}
+
+#modelS h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#modelS p {
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: 400;
+}
+
+#modelS div:first-child span {
+    color: #FFFFFFFF;
+    font-size: 14px;
+}
+
+#cybertruck {
+    height: 100vh;
+    background-image: url(/assets/images/page5.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px 0;
+    text-align: center;
+    color: #FFFFFFFF;
+}
+
+#cybertruck svg {
+    position: absolute;
+    left: 35%;
+    width: 450px;
+}
+
+#cybertruck .white {
+    background-color: #111213;
+    border: 1px solid #23262e;
+    padding: 10px 100px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #A2A3A5;
+}
+
+#cybertruck .black {
+    background-color: #111213;
+    border: 1px solid #23262e;
+    color: #A2A3A5;
+    padding: 10px 100px;
+    font-weight: 500;
+    cursor: pointer;
 }
