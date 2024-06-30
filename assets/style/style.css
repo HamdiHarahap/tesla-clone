@@ -36,12 +36,22 @@ nav ul {
     cursor: pointer;
 }
 
-.list {
-    gap: 40px;
+nav .lists li {
+    padding: 5px 15px;
+    border-radius: 5px;
 }
 
-.logo {
-    gap: 20px;
+.lists {
+    gap: 5px;
+}
+
+nav .logos li {
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.logos {
+    gap: 5px;
 }
 
 #home {
@@ -220,6 +230,134 @@ nav ul {
     border: 1px solid #23262e;
     color: #A2A3A5;
     padding: 10px 100px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#solar {
+    height: 100vh;
+    background-image: url(/assets/images/page6.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px 0;
+    text-align: center;
+    color: #FFFFFFFF;
+}
+
+#solar h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#solar div:first-child span {
+    color: #FFFFFFFF;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#roof {
+    height: 100vh;
+    background-image: url(/assets/images/page7.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px 0;
+    text-align: center;
+    color: #000000;
+}
+
+#roof h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#roof div:first-child span {
+    font-size: 14px;
+}
+
+#wall {
+    height: 100vh;
+    background-image: url(/assets/images/page8.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px 0;
+    text-align: center;
+    color: #000000;
+}
+
+#wall h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#accessories {
+    height: 100vh;
+    background-image: url(/assets/images/page9.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px 0;
+    text-align: center;
+    color: #000000;
+}
+
+#accessories h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+footer {
+    height: 65vh;
+    padding: 50px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    color: #D0D1D2;
+    font-size: 12.5px;
+}
+
+footer p {
+    line-height: 18px;
+}
+
+footer span {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
     font-weight: 500;
     cursor: pointer;
 }
